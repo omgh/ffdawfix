@@ -136,6 +136,9 @@ function fixChat() {
 				div_menu.style.top = y;
 				div_menu.innerHTML = '<div style="cursor: pointer;text-align: right; position: absolute; top: 0px; right: 2px;" onclick="top.CloseMenu(window)"><b>[X]</b></div>' + MenuStr;
 			}
+			else{
+				div_menu.style.display = 'none';
+			}
 		}
 	}
 	//Rmenu fix
